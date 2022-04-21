@@ -5,16 +5,7 @@
       "namespace": "android_app",
       "package_name": "com.ainbr.android",
       "sha256_cert_fingerprints":
-        ["92:F1:04:6C:4B:6F:E5:D6:3B:7F:35:99:DD:18:C7:3D:FD:F2:62:3D:79:F8:63:4C:BF:6D:58:1A:E8:5B:D0:70"]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.ainbr.android",
-      "sha256_cert_fingerprints":
-        ["5C:D5:CC:FE:61:D6:F0:4A:11:AE:05:F4:78:8F:63:19:8B:0E:71:78:72:77:77:03:50:10:98:D7:7F:62:6B:34"]
+        ["92:F1:04:6C:4B:6F:E5:D6:3B:7F:35:99:DD:18:C7:3D:FD:F2:62:3D:79:F8:63:4C:BF:6D:58:1A:E8:5B:D0:70", "5C:D5:CC:FE:61:D6:F0:4A:11:AE:05:F4:78:8F:63:19:8B:0E:71:78:72:77:77:03:50:10:98:D7:7F:62:6B:34"]
     }
   }
 ]
