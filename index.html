@@ -82,13 +82,13 @@
             color: var(--fg);
             text-decoration: underline;
             text-decoration-thickness: 2px;
-            text-decoration-color: rgba(26, 26, 26, 0.6);
             text-underline-offset: 0.18em;
-            transition: text-decoration-color 0.3s ease, text-decoration-thickness 0.3s ease;
+            text-decoration-color: currentColor;
+            transition: color 0.25s ease, text-decoration-color 0.25s ease;
         }
         .link:hover {
-            text-decoration-color: var(--fg);
-            text-decoration-thickness: 3px;
+            color: #00bcd4;
+            text-decoration-color: #00bcd4;
         }
         @keyframes fadeInUp {
             from {
