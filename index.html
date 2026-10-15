@@ -80,12 +80,15 @@
         }
         .link {
             color: var(--fg);
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-bottom 0.3s ease;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-color: rgba(26, 26, 26, 0.6);
+            text-underline-offset: 0.18em;
+            transition: text-decoration-color 0.3s ease, text-decoration-thickness 0.3s ease;
         }
         .link:hover {
-            border-bottom-color: var(--fg);
+            text-decoration-color: var(--fg);
+            text-decoration-thickness: 3px;
         }
         @keyframes fadeInUp {
             from {
@@ -156,7 +159,7 @@
         </div>
         
         <p class="focus">
-            Currently focused on <a href="https://potion.bar" class="link" target="_blank">Potion.bar</a>, an AI-driven platform for effortless spirits discovery—helping people find and understand great bottles.
+            Currently focused on <a href="https://potion.bar" class="link" target="_blank">Potion.bar</a>, an AI-driven platform for effortless spirits discovery—helping people find and understand the right bottle for every moment.
         </p>
     </div>
     <footer>
